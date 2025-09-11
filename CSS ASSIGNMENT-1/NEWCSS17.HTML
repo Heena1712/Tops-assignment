@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flipkart Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #2874f0;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.search-box {
+  flex: 1;
+  padding: 8px;
+  border-radius: 2px;
+  border: none;
+}
+
+.login-btn {
+  background-color: white;
+  color: #2874f0;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.nav-links span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+
+}
+
+.category {
+  padding: 10px;
+  background: white;
+  
+  cursor: pointer;
+}
+ .categories-row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 15px 10px;
+      overflow-x: auto;
+    }
+  .category {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+
+    .category img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      margin-bottom: 5px;
+    }
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  justify-content: space-around;
+  background-color: #f1f3f6;
+  margin: 50px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 4px #ccc;
+  
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 0 4px  #ccc ;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #172337;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer-column p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.footer-column p:hover {
+  text-decoration: underline;
+}
+
+.social-icons span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.top-deals-section {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.top-deals-section h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #333;
+}
+
+.product-carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.product-card2 {
+  padding: 20px;
+  width: 180px;
+  min-width: 140px;
+  text-align: center;
+  flex-shrink: 0;
+  gap: 25px;
+  margin: 7px;
+  justify-content: baseline;
+}
+
+.product-card img2 {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.product-card .title {
+  font-size: 14px;
+  margin: 8px 0 4px;
+  color: #000;
+}
+
+.product-card .price {
+  font-size: 13px;
+ color:green;
+}
+.products1{
+        display: flex;
+      gap: 10px;
+    justify-content: space-around;
+      
+    
+    }
+    .product {
+      text-align: center;
+      
+    }
+
+    .product img {
+      width: 100px;
+      height: 150px;
+      object-fit: cover;
+}
+ </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">Flipkart</div>
+    <input type="text" placeholder="Search for products, brands and more" class="search-box" />
+    <button class="login-btn">Login</button>
+    <div class="nav-links">
+      <span>Become a Seller</span>
+      <span>More</span>
+      <span>Cart</span>
+    </div>
+  </header>
+
+  <!-- Categories Row -->
+  <section class="categories">
+    <div class="category" >
+      <img src="https://rukminim1.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100"> Mobile</div>
+    <div class="category">
+       <img src="https://rukminim1.flixcart.com/flap/64/64/image/29327f40e9c4d26b.png?q=100">Grocery</div>
+    <div class="category">
+      <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/electric-bike-scooter/c/g/w/ampere-reo-li-plus-portable-charger-reo-li-plus-drum-booking-for-original-imagx35zghp6gev3.jpeg?q=70" style="height: 40px; width: 40px;"> Electronics</div>
+    <div class="category">
+      <img src="https://rukminim1.flixcart.com/flap/64/64/image/71050627a56b4693.png?q=100"> Flight Bookings</div>
+    <div class="category">
+     <img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/0139228b2f7eb413.jpg?q=100">  Appliances</div>
+      <div class="category">
+     <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/diwan-set/0/r/5/dwn-big-flower-rabhnoor-original-imah6zx8gxkhgu7j.jpeg?q=70">  Home & Furniture</div>
+     <div class="category">
+     <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/stuffed-toy/j/b/i/combo-of-unicorn-kitty-penguin-rabbit-pikachu-white-elephant-original-imahaz6mfexkch4d.jpeg?q=70"> Toy,Beuty & more</div>
+  </section>
+
+  <!-- Main Banner -->
+  <section class="banner">
+    <img src="https://rukminim1.flixcart.com/fk-p-flap/1620/270/image/fb28e3e1d22e6da2.jpg?q=80" alt="Banner" />
+  </section>
+
+  
+
+  <!-- Product Grid -->
+  <section class="products">
+    <div class="product-card">
+      <img src="https://rukminim1.flixcart.com/image/210/210/xif0q/bath-tub/j/o/z/portable-inflatable-3-ft-3-ring-bath-tub-child-tub-cushion-original-imahf6y9nwzbgb8h.jpeg?q=80" alt="">
+      <p>Baby Bath Tub</p>
+      <p style="color: green;"> Min 50% off</p>
+    </div>
+    <div class="product-card">
+      <img src="https://rukminim1.flixcart.com/image/210/210/xif0q/desk-organizer/b/k/u/6-layer-foldable-multipurposehumble-kart-plastic-rectangular-original-imahcd3gkyhpdhbf.jpeg?q=80" alt="Dry Fruits Nuts, and Seed">
+      <p>Desk Organizers</p>
+      <p style="color: green;"> Min 50% off</p>
+    </div>
+    <div class="product-card">
+      <img src="https://rukminim1.flixcart.com/image/210/210/xif0q/shaver/v/t/c/vintage-t9-hair-cut-machine-beard-trimmer-cordless-barber-original-imah96q5wg5a4wtf.jpeg?q=80" alt="Dry Fruits Nuts, and Seed" >
+      <p>Shavers</p>
+      <p style="color: green;"> Min 50% off</p>
+    </div>
+    <div class="product-card">
+      <img src="https://rukminim1.flixcart.com/image/210/210/xif0q/lipstick/g/y/y/10-handaiyan-lipstick-set-6-piece-shade-a-bluset-original-imah4nfzxndzhkga.jpeg?q=80" alt="Dry Fruits Nuts, and Seed">
+      <p>Lipstick</p>
+      <p style="color: green;" > Special offer</p>
+    </div>
+    <div class="product-card">
+      <img src="https://rukminim1.flixcart.com/image/210/210/l09w8sw0/helmet/s/9/v/nano-1-na-58-half-face-active-original-imagc3gq2pxfgv3t.jpeg?q=80" alt="Dry Fruits Nuts, and Seed">
+      <p>Biker Helmets</p>
+      <p style="color: green;" > Special offer</p>
+    </div>
+    <!-- Add more cards -->
+  </section>
+
+<div class="section">
+   
+    <div class="products1">
+      <div><img src="https://rukminim2.flixcart.com/fk-p-flap/1040/560/image/d89a0cd1fddfeb34.jpg?q=60" height="210px"></div>
+      <div ><img src="https://rukminim2.flixcart.com/fk-p-flap/1040/560/image/9a1762cc3212ebf3.jpg?q=60" height="210px"></div>
+      <div><img src="https://rukminim2.flixcart.com/fk-p-flap/1040/560/image/cc9e48717aea42bf.jpg?q=60" height="210px"></div>
+     </div>
+  </div>
+
+  <div class="top-deals-section">
+  <h2>Home Top Deals</h2>
+  <div class="product-carousel">
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/xif0q/mosquito-net/n/a/v/double-bed-folding-king-size-double-bed-78-whitenet-222007-adbra-original-imahf925qn6zcrga.jpeg?q=80" alt="Mosquito Nets">
+      <p class="title">Mosquito Nets</p>
+      <p class="price">From ₹249</p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/xif0q/emergency-light/k/3/f/12w-rechargeable-emergency-inverter-led-bulb-with-backup-upto-18-original-imaggwwdmt83k9ru.jpeg?q=80" alt="Lighting Essentials">
+      <p class="title">Lighting Essentials</p>
+      <p class="price">From ₹79</p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/xif0q/dinner-set/i/c/h/yes-47-8904350470037-cello-original-imahft5xc2gjvgkw.jpeg?q=80" alt="Dinner sets">
+      <p class="title">Dinner Sets</p>
+      <p class="price">From ₹499</p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/xif0q/umbrella/l/o/y/39-4-1pc-auto-8-ribs-umbrella-for-sun-rain-protection-man-woman-original-imahycxchaycxsrz.jpeg?q=80" alt="Umbrellas">
+      <p class="title">Umbrellas</p>
+      <p class="price">Up to 85% Off</p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/xif0q/bottle/4/y/5/-original-imagzx6zn3n6v67z.jpeg?q=80" alt="Flasks">
+      <p class="title">Flasks</p>
+      <p class="price">From ₹229</p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80" alt="Indoor Plants">
+      <p class="title">Indoor Plants</p>
+      <p class="price">Up to 85% Off</p>
+    </div>
+   </div>
+   </div>
+
+   <div class="top-deals-section">
+  <h2>Electronics</h2>
+  <div class="product-carousel">
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/xif0q/cooling-pad/z/h/d/fksbcpk17-flipkart-smartbuy-original-imagrpra6uudn8xx.jpeg?q=80" alt="Mosquito Nets">
+      <p class="title">Colling Pads</p>
+      <p class="price">From ₹599</p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/kz3118w0/laptop-stand/n/x/j/490-laptop-stand-adjustable-laptop-computer-stand-multi-angle-original-imagb66hfymqvfw4.jpeg?q=80" alt="Lighting Essentials">
+      <p class="title">Laptop Stands</p>
+      <p class="price">From ₹209</p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/kzzw5u80/keyboard/multi-device-keyboard/o/2/d/km3322w-km3322w-keyboard-mouse-combo-anti-fade-spill-resistant-original-imagbvyatqteauf2.jpeg?q=80" alt="Dinner sets">
+      <p class="title"> Top Rated Keybords</p>
+      <p class="price">From ₹299</p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/l3khsi80/mouse/x/r/s/toad-23-adjustable-dpi-2-4ghz-portronics-original-imagenxwgzsqub38.jpeg?q=80" alt="Umbrellas">
+      <p class="title"> Best Selling Mouse</p>
+      <p class="price">From ₹299 </p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/xif0q/mouse/j/g/o/7j4g4aa-hp-original-imagrwgnkzmqzrxu.jpeg?q=80" alt="Flasks">
+      <p class="title">Top Selling Mouse</p>
+      <p class="price">From ₹439</p>
+    </div>
+    <div class="product-card2">
+      <img src="https://rukminim1.flixcart.com/image/120/120/jhjg13k0/router/g/n/n/tp-link-archer-c20-ac-wireless-dual-band-original-imaf5j9whw9bbetb.jpeg?q=80" alt="Indoor Plants">
+      <p class="title">Top Rated Router</p>
+      <p class="price">From ₹560</p>
+    </div>
+   </div>
+   </div>
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>ABOUT</h4>
+      <p>Contact Us</p>
+      <p>About Us</p>
+      <p>Careers</p>
+      <p>Flipkart Stories</p>
+      <p>Press</p>
+      <p>Corporate Information</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>GROUP COMPANIES</h4>
+      <p>Myntra</p>
+      <p>Cleartrip</p>
+      <p>Shopsy</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>HELP</h4>
+      <p>Payments</p>
+      <p>Shipping</p>
+      <p>Cancellation & Returns</p>
+      <p>FAQ</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>CONSUMER POLICY</h4>
+      <p>Cancellation & Returns</p>
+      <p>Terms Of Use</p>
+      <p>Security</p>
+      <p>Privacy</p>
+      <p>Sitemap</p>
+      <p>Grievance Redressal</p>
+      <p>EPR Compliance</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Mail Us:</h4>
+      <p>Flipkart Internet Private Limited,</p>
+      <p>Buildings Alyssa, Begonia &</p>
+      <p>Clove Embassy Tech Village,</p>
+      <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+      <p>Bengaluru, 560103, Karnataka, India</p>
+
+      <h4>Social:</h4>
+      <div class="social-icons">
+        <span>🔵</span> <span>📸</span> <span>🎥</span>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>Registered Office Address:</h4>
+      <p>Flipkart Internet Private Limited,</p>
+      <p>Buildings Alyssa, Begonia &</p>
+      <p>Clove Embassy Tech Village,</p>
+      <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+      <p>Bengaluru, 560103, Karnataka, India</p>
+      <p>CIN : U51109KA2012PTC066107</p>
+      <p>Telephone: 044-45614700 / 044-67415800</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

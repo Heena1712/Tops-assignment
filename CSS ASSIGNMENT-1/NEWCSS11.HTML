@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+          height: 600px;
+          width: auto;
+          background-image: url("https://wildlife.org/wp-content/uploads/2017/01/monarch.png");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+       p::first-line{
+          font-size: xx-large;
+          color: blueviolet;
+          background-color: cadetblue;
+
+        }
+        a{
+            text-decoration: none;
+        }
+       
+        h2{
+            height: 50px;
+            width: 350px;
+            text-align: center;
+            font-size: xx-large;
+            border: 2px solid blue;
+           margin-left: 450px;
+        }
+         h2::after{
+            color: crimson;
+            content: '*';
+        }
+         h2::before{
+            color: crimson;
+            content: '*';
+        }
+        .a:visited{
+            background-color: blueviolet;
+        }
+        .b:active{
+            border: 3px solid rgb(122, 9, 117);
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+    <h2>This is the Butterfly</h2>
+    <p>A butterfly is a winged insect in the order Lepidoptera that is characterized by its large, often brightly colored wings and club-tipped antennae. They are known for their delicate, fluttering flight and their complete metamorphosis, passing through four life stages: egg, larva (caterpillar), pupa (chrysalis), and adult. Butterflies are active during the day and are important indicators of environmental health due to their sensitivity to habitat changes. Butterflies are sensitive to environmental changes, making them important indicators of biodiversity and the overall health of ecosystems. </p>
+    <a href="#learmore" class="a">learmore</a>
+    <a href="#about" class="b">About</a>
+    <a href="#learmore" class="c">learmore</a>
+</body>
+</html>

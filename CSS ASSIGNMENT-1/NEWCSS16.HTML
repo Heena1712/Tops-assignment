@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        .main{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 250px 250px;
+            gap: 10px;
+            padding: 70px;
+        }
+        .main > div{
+            border: 1px solid;
+        }
+        .child1{
+            background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Somanath_mandir_%28cropped%29.jpg/960px-Somanath_mandir_%28cropped%29.jpg") ;
+            background-position: center;
+            background-size: cover;
+            transition-property:width ;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+            transition-delay: 1s;
+        }
+        .child2{
+            background-image:url("https://saishishirtours.in/wp-content/uploads/2022/12/char-dham-landing.webp") ;
+            background-position: center;
+            background-size: cover;
+        }
+        .child3{
+            background-image:url("https://wallpapers.com/images/featured/ujjain-mahakal-jbba1kpmuexrqw4v.jpg") ;
+            background-position: center;
+            background-size: cover;
+        }
+        .child4{
+            background-image:url("https://images.unsplash.com/photo-1638814175187-bef04bac8f6e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b21rYXJlc2h3YXJ8ZW58MHx8MHx8fDA%3D") ;
+            background-position: center;
+            background-size: cover;
+        }
+        .child5{
+            background-image:url("https://s7ap1.scene7.com/is/image/incredibleindia/1-trimbakeshwar-nashik-maharashtra-attr-hero?qlt=82&ts=1726669890287") ;
+            background-position: center;
+            background-size: cover;
+        }
+        .child6{
+            background-image:url("https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/21/0b67f94e7a325fc1e986e2316c713418_1000x1000.jpg") ;
+            background-position: center;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;    
+        }
+        .child1:hover{
+            
+            transform: scale(1.3);
+            box-shadow: 0 5px 10px blue;
+        }
+        .child2:hover{
+            
+            transform: scale(1.3);
+            box-shadow: 0 5px 10px blueviolet;
+        }
+        .child3:hover{
+            
+            transform: scale(1.3);
+            box-shadow: 0 5px 10px rgb(153, 18, 124);
+        }
+        .child4:hover{
+            
+            transform: scale(1.3);
+            box-shadow: 0 5px 20px yellow;
+        }.child5:hover{
+            
+            transform: scale(1.3);
+            box-shadow: 0 5px 20px green;
+        }.child6:hover{
+            
+            transform: scale(1.3);
+            box-shadow: 0 5px 20px purple;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>My Gallery</h1>
+    <div class="main">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+    <div class="child4"></div>
+    <div class="child5"></div>
+    <div class="child6"></div>
+    </div>
+</body>
+</html>
