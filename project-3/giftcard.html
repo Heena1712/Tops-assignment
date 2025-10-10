@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <style>
+    .nav-link {
+      color: black;
+      font-size: medium;
+    }
+
+    .d-inline-block {
+      height: 100px;
+      width: 100px;
+    }
+
+    .footer {
+      height: 120px;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: space-around;
+
+
+    }
+
+    .child {
+      height: 100px;
+      width: 200ox;
+      color: white;
+      font-weight: 400;
+      font-size: large;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .child1 {
+      height: 100px;
+      width: 200ox;
+      color: white;
+      font-weight: 400;
+      font-size: large;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    h5{
+      text-align: center;
+      color: grey;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    h4 {
+      text-align: center;
+    }
+
+    .s {
+      width: auto;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .form-control {
+      
+      width: 500px;
+    }
+
+    .form1 {
+      height: auto;
+      width: 100%;
+      /* border: 5px solid black; */
+      display: flex;
+    }
+
+    .sub-form {
+      height: auto;
+      width: 80%;
+      /* border: 3px solid plum; */
+      display: flex;
+
+      flex-direction: column;
+    }
+
+    .sub1 {
+      height: 500px;
+      width: 100%;
+      /* border: 3px solid blue; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+    }
+
+    .l1 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .l2 {
+      display: flex;
+      justify-content: center;
+    }
+    .l3 {
+      display: flex;
+      justify-content: center;
+    }
+    .l4 {
+      display: flex;
+      justify-content: center;
+    }
+
+    button{
+      height: 50px;
+      width: 200px;
+      border: 1px solid red;
+      border-radius: 8%;
+      color: red;
+      background: transparent;
+      text-align: center;
+      margin-left: 560px;
+    }
+    .btn{
+      height: 50px;
+      width: 130px;
+      border: 1px solid red;
+      border-radius: 8%;
+      color: red;
+      background: transparent;
+      text-align: center;
+      margin-left: 600px;
+    }
+    h6{
+      text-align: right;
+      color: black;
+      font-size: large;
+      margin-right: 150px;
+    }
+    ul{
+      margin-left: 200px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img src="https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/zudio-logo.png" alt=""
+        width="50" class="d-inline-block align-text-top">
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">E-gift card</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reload</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Check Balance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Find a store</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">T&C</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Order Status and Resend</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://giftbig.s3.amazonaws.com/microsite/homebanner/slidebanner/slidebanner_4177.png"
+          class="d-block w-100" alt="..." height="400">
+      </div>
+      <div class="carousel-item">
+        <img src="https://giftbig.s3.amazonaws.com/microsite/homebanner/slidebanner/slidebanner_4127.jpg"
+          class="d-block w-100" alt="..." height="400">
+      </div>
+      <div class="carousel-item">
+        <img src="https://giftbig.s3.amazonaws.com/microsite/homebanner/slidebanner/slidebanner_4128.jpg"
+          class="d-block w-100" alt="..." height="400">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br><br>
+  <div class="main">
+
+    <h5>Zudio Gift Card</h5>
+    <p>Runnin' out of gift ideas? We've got something that's really IN: Zudio E-Gift Cards! Give your loved ones the
+      gift of fashion and fits that are IN. Deliver WHAT’S IN straight to their in-box! WHAT’S IN IS IN GIFTIN! WHAT’S
+      IN IS IN ZUDIO!
+    </p>
+    <br>
+    <div class="l1">
+      <hr style="width: 400px;">
+      <h4>Enter Denomination</h4>
+      <hr style="width: 400px;">
+    </div>
+    <br><br>
+    <div class="s">
+      <div class="form-floating mb-3">
+  <input type="email" class="form-control " id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Amount</label>
+</div>
+<div class="form-floating">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Enter quantity</label>
+</div>
+  </div>
+  <br><br>
+  <div class="l2">
+    <hr style="width: 400px;">
+    <h4>Select EGV Design Theme</h4>
+    <hr style="width: 400px;">
+  </div>
+  <div class="form1">
+    <div class="sub1">
+      <p>Sender's Details</p>
+      <div class="sub-form">
+        <div class="form-floating mb-3 w-50">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">First name</label>
+        </div>
+        <div class="form-floating mb-3 w-50">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Last Name</label>
+        </div>
+        <div class="form-floating mb-3 w-100">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="col-md-4 position-relative">
+    <label for="validationTooltipUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="validationTooltipUsernamePrepend">91+</span>
+      <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+     
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="sub1">
+      <p>Reciever's Details</p>
+      <div class="sub-form">
+        <div class="form-floating mb-3 w-50">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3 w-50">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3 w-100">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">Personal Message</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button>PREVIEW E-GIFT-CARD</button>
+<br>
+<br>
+<div class="l3">
+    <hr style="width: 400px;">
+    <h4>Select Payment Method</h4>
+    <hr style="width: 400px;">
+  </div>
+
+  <h6>Payable Amount: ₹0.00</h6>
+  <br>
+   <button class="btn">Pay Now</button>
+  <br>
+  <br>
+  <div class="l4">
+    <hr style="width: 400px;">
+    <h4>Term & Conditions</h4>
+    <hr style="width: 400px;">
+  </div>
+<br>
+  <ul>
+            <li>
+                E-Gift Voucher is valid for a period for 12 months from the date of purchase/activation</li>
+            <li>
+                Protect the E-Gift Voucher number and PIN</li>
+            <li>
+                E-Gift Voucher is valid for a period for 12 months from the date of purchase/activation</li>
+            <li>
+                E-Gift Voucher is combination of 16-digit Card number and 6-digit PIN</li>
+            <li>
+                E-Gift Voucher is received by customers through e-mail or SMS</li>
+            <li>
+                E-Gift Voucher is ONE-TIME Redeem only i.e the customer has to completely utilize the EGV amount .
+                Partial redemption is not possible (Meaning to utilize the whole money at one go hence it can be
+                utilized only once and not multiple times)</li>
+</ul>
+<br>
+  <div class="footer">
+    <div class="child">
+      <p>Copyright © 2025 Zudio <br>
+        Don’t miss out on the latest in fashion.<br>
+        Follow us instagram @myzudio, instagram @MYZUDIO</p>
+    </div>
+
+    <div class="child1">
+      <a href="cookie policy" style="color: white; text-decoration: none;">Cookie Policy</a>
+      <a href="cookie policy" style="color: white; text-decoration: none;">Contact us-zudiohelp@tent-tata.com</a>
+      <a href="cookie policy" style="color: white; text-decoration: none;">Zudio Retail Business Associate
+        Enquiry-zudiohelp@tent-tata.com</a>
+    </div>
+
+  </div>
+</body>
+
+</html>
