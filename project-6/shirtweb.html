@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  
+
+  <style>
+    .cl,
+    .cl1 {
+      width: 270px;
+      flex-grow: 1;
+
+    }
+    button:hover {
+      color: green;
+      transform: scale(1.2);
+    }
+
+    .k3, .cl:hover {
+      transform: scale(1.01) translateY(-15px);
+    }
+
+    .v1:hover {
+      transform: scale(1.01) translateY(-15px);
+      /* box-shadow: 3px 3px 3px 3px; */
+    }
+    .cl1:hover {
+      transform: scale(1.01) translatex(-5px);
+    }
+    .s1:hover {
+      transform: scale(1.01) translatex(-5px);
+    }
+
+    .text-center {
+      width: 250px;
+      /* border: 2px solid; */
+      flex-grow: 1;
+
+    }
+
+    .sl {
+      width: 200px;
+      /* border: 2px solid;  */
+      flex-grow: 1;
+    }
+
+    .person-img {
+      height: 240px;
+    }
+
+    .person-img,
+    img {
+      height: 270px;
+      object-fit: cover;
+    }
+
+    .pre-img1,
+    img {
+      height: 300px;
+    }
+
+    span {
+      height: 12px;
+      width: 35px;
+      /* display: block; */
+    }
+
+    .k1,
+    .k2 {
+      height: 450px;
+    }
+
+    .pic1, .pic2 {
+      height: 100px;
+      width: 300px;
+    }
+
+    .pic3 {
+      height: 600px;
+      width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-1" href="#">ToolM5</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-around justify-content-center justify-content-md-around flex-column flex-md-row align-items-center gap-2" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  w-100 d-flex justify-content-center text-center gap-4">
+
+          <li class="nav-item">
+            <a class="nav-link active fs-4 " aria-current="page" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-black" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-black" href="#">Contacts</a>
+          </li>
+        </ul>
+
+        <div class="c1 w-50 d-flex justify-content-center justify-content-around  align-items-center">
+          <i class="bi bi-facebook "></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-instagram"></i>
+        </div>
+
+
+        <button style="background-color:#7cc242;" class="btn btn-success border border-dark w-25 rounded-5 "
+          type="submit">Get Start <i class="bi bi-chevron-right bg-black rounded-5"></i></button>
+
+      </div>
+    </div>
+  </nav>
+
+  <div style="background-color:#7cc242;"
+    class="container flex-column gap-5 px-5 py-5 w-100 d-flex justify-content-center align-items-center rounded-5">
+    <h3>Create your</h3>
+    <h1>T-Shirt Design</h1>
+    <button style="height: 45px;" class="btn btn-dark rounded-5 fw-bold border-light  ">GET STARTED</button>
+    <H4>View how it works</H4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <br>
+
+  <div class="container ">
+    <hr>
+    <h2>Our Features</h2>
+    <div class="m1">
+      <div class="c2 d-flex flex-wrap justify-content-center justify-content-around">
+        <div class="text-center p-4">
+          <i class="bi bi-palette" style="font-size: 60px; color: #7cc242;"></i>
+          <h4 class="fw-bold mt-3">
+            Unique Design</h4>
+          <p class="text-muted">Jul 13,2025</p>
+        </div>
+        <div class="text-center p-4">
+          <i class="bi bi-layers" style="font-size: 60px; color: #7cc242;"></i>
+          <h4 class="fw-bold mt-3">
+            Quality Materials</h4>
+          <p class="text-muted">Jul 15 2025</p>
+        </div>
+        <div class="text-center p-4">
+          <i class="fa-light fa-shirt" style="font-size: 60px; color: #7cc242;"></i>
+          <!-- <i class="bi bi-tshirt" style="font-size: 60px; color: #7cc242;"></i> -->
+          <h4 class="fw-bold mt-3">
+            Quality Materials</h4>
+          <p class="text-muted">Jul 15 2025</p>
+        </div>
+        <div class="text-center p-4">
+          <i class="bi bi-emoji-smile" style="font-size: 60px; color: #7cc242;"></i>
+          <h4 class="fw-bold mt-3">
+            Quality Materials</h4>
+          <p class="text-muted">Jul 15 2025</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+  <div class="container-fluid bg-dark rounded-5" style="height:auto;">
+     <h1 class="fs-1 fw-bold text-light rounded-1 p-3">How it works?</h1>
+    <div class="row p-5 d-flex flex-column flex-md-row justify-content-around justify-content-md-around gap-5" style="height: auto;" >
+     
+      <div class="col ">
+        <div style="height: 650px;" class="k3 container border border-success w-100 bg-light rounded-5 ">
+
+          <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg"
+            class="rounded-5 w-100 pt-3" alt="...">
+
+          <p style="font-weight: 400; color: black;" class="display-3 pt-4">Unique T-Shirt</p>
+          <button style="background-color:white; color: black; margin-top: 100px;"
+            class="btn btn-success border border-dark  rounded-5 fs-5" type="submit">Buy for $59</button>
+
+          <button style="background-color:#7cc242; margin-top: 100px;" class="btn btn-success border border-dark  rounded-5 fs-5 float-end"
+            type="submit">View all <i class="bi bi-chevron-right bg-black rounded-5"></i></button>
+        </div>
+       </div>
+
+        <div class="col">
+          <div style="height: 650px;" class="k3 container border border-success w-100 bg-light rounded-5 ">
+            <p class="text-black fs-4 pt-3">Unique T-Shirt Design</p>
+            <hr style="color: black;">
+
+            <p class="fs-4 fw-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id orci nec lectus
+              lacinia tempus. Praesent nec quam mollis turpis eleifend consequat.</p>
+
+            <p class="fs-4 fw-semibold">Phasellus euismod maximus ipsum vehicula vehicula. Mauris posuere risus nec
+              purus dapibus semper sed id ligula. Integer massa lorem, fringilla vel eros.</p>
+
+            <button style="background-color:white; color: black; margin-top:100px;"
+              class="btn btn-success border border-dark  rounded-5 fs-5" type="submit">Buy for $59</button>
+
+            <button style="background-color:#7cc242; margin-top:100px;"
+              class="btn btn-success border border-dark  rounded-5 fs-5 float-end" type="submit">View all <i
+                class="bi bi-chevron-right bg-black rounded-5"></i></button>
+          </div>
+        </div>
+     
+    </div>
+  </div><br><br>
+
+ 
+
+
+
+  <div class="container py-5 ps-5">
+    <div class="d-flex flex-column flex-md-row justify-content-around align-items-center justify-content-md-around gap-5">
+      <div class="col text-center w-75">
+        <p class="fs-1 text-black text-center">About Us</p>
+      </div>
+
+      <div class="sl border border-dark border-end-0 border-top-0 border-bottom-0 w-50 ps-4 ">
+        <p class="fs-5 w-75 text-secondary  ps-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris felis elit,faucibus at tincidunt vel, ultrices vitae mauris. Pellentesque nec ante nisi. Praesent posuere dignissimnibh in finibus. Nunc rutrum nibh pellentesque, viverra dolor quis, sollicitudin libero. Duis non elit feugiat maximus.</p>
+      </div>
+    </div>
+  </div><br><br>
+
+
+  <div class="container">
+    <div>
+      <p class="fs-2 text-black">Professional Tools</p>
+    </div>
+    <div style="background-color:#7cc242;" class="r1 py-4 px-4 d-flex flex-wrap gap-4 justify-content-center rounded-5">
+      <div class="cl overflow-hidden border border-dark bg-light rounded-5">
+        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpg" alt=""
+          class="person-img w-100 object-fit-cover ">
+        <div class="ps-4 py-2">
+          <p class="fw-bold fs-3">Quality Materials</p>
+          <p class="fs-5">Lorem ipsum dolor sit amet</p>
+          <hr>
+          <a href="" class="fs-5 text-black">Read More <span>></span></a>
+        </div>
+      </div>
+      <div class="cl overflow-hidden border border-dark  bg-light rounded-5">
+        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg" alt=""
+          class="person-img w-100 object-fit-cover">
+        <div class="ps-4 py-2">
+          <p class="fw-bold fs-3">High Print Quality</p>
+          <p class="fs-5">Lorem ipsum dolor sit amet</p>
+          <hr>
+          <a href="" class="fs-5 text-black">Read More <span>></span></a>
+        </div>
+      </div>
+      <div class="cl overflow-hidden border border-dark  bg-light rounded-5">
+        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt=""
+          class="person-img w-100 object-fit-cover">
+        <div class="ps-4 py-2">
+          <p class="fw-bold fs-3">Good Reviews</p>
+          <p class="fs-5">Lorem ipsum dolor sit amet</p>
+          <hr>
+          <a href="" class="fs-5 text-black">Read More <span>></span></a>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br>
+
+  <div class="container">
+    <div class="d-flex justify-content-center align-items-center flex-column w-100">
+      <div>
+        <p class="fs-2 text-black">Our Shop</p>
+      </div>
+      <div>
+        <p class="fs-4 text-secondary text-center w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Aliquam fringilla suscipit <br> orci eu pellentesque. Nullam consectetur dolor vel ex ullamcorper, non
+          viverra <br> neque aliquet.</p>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br><br>
+
+
+  <div class="container rounded-5 bg-light ">
+    <div class="v1 d-flex flex-wrap justify-content-center align-items-center gap-5 py-5s ">
+      <div class="cl overflow-hidden">
+        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg" alt=""
+          class="w-100 object-fit-fill  s1img" style="height: 400px;">
+      </div>
+      <div class="cl">
+        <div>
+          <p class="fs-1">T-shirt with Print</p>
+          <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies metus et nibh
+            gravida, eu imperdiet ante egestas. Duis ornare lobortis ante, eget eleifend sapien dictum ut. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices.</p>
+        </div>
+      </div>
+      <div class="cl">
+        <p class="display-1">$29</p>
+        <button style="background-color:#7cc242;" class="btn border border-3 border-dark rounded-5">Buy Now <span
+            class="bg-black text-white rounded px-2 rounded-circle fw-bold pb-1">></span></button>
+      </div>
+    </div>
+  </div><br><br>
+
+  <div class="container rounded-5 bg-light ">
+    <div class="v1 d-flex flex-wrap py-5 justify-content-center align-items-center gap-5 w-100">
+      <div class="cl cl1">
+        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt=""
+          class="w-100 object-fit-cover s1img" style="height: 400px;">
+      </div>
+      <div class="cl cl1 py-3">
+        <div>
+          <p class="fs-1 ">T-shirt with Slogan</p>
+          <p class="fs-4 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies metus et
+            nibh gravida, eu imperdiet ante egestas. Duis ornare lobortis ante, eget eleifend sapien dictum ut.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+        </div>
+      </div>
+      <div class="cl cl1">
+        <p class="display-1">$49</p>
+        <button style="background-color:#7cc242;" class="btn border border-3 border-dark rounded-5">Buy Now <span
+            class="bg-black text-white rounded px-2 rounded-circle fw-bold pb-1">></span></button>
+      </div>
+    </div>
+  </div><br><br><br><br>
+
+  <div class="c1 container-fluid">
+    <div>
+      <p class="fs-1 text-black">Our Team</p>
+      <p class="fs-4 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div style="background-color:#7cc242;" class="r1 rounded-5 d-flex flex-wrap justify-content-center gap-5 py-4 px-4">
+      <div class="cl1 overflow-hidden bg-light  rounded-5">
+        <div class="pre-img1"> <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team1.jpg"
+            alt="" class="w-100 object-fit-cover"></div>
+        <div class="ps-3 py-3">
+          <p class="fs-3 text-black">Jessica Swift</p>
+          <p class="fs-4 text-secondary">Manager</p>
+          <p class="fs-4 text-black">Lorem ipsum dolor sit amet, consectet adipiscing elit.</p>
+          <button style="background-color:#7cc242;" class="btn rounded-pill fs-5 border border-3 border-dark">View
+            Profile <span class="bg-black text-white rounded px-2 rounded-circle fw-bold pb-1">></span></button>
+        </div>
+      </div>
+      <div class="cl1 bg-light overflow-hidden rounded-5">
+        <div class="pre-img1"> <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team2.jpg"
+            alt="" class="w-100 object-fit-cover"></div>
+        <div class="ps-3 py-3">
+          <p class="fs-3 text-black">Ben Palmer</p>
+          <p class="fs-4 text-secondary">Designer</p>
+          <p class="fs-4 text-black">Lorem ipsum dolor sit amet, consectet adipiscing elit.</p>
+          <button style="background-color:#7cc242;" class="btn rounded-pill fs-5 border border-3 border-dark">View
+            Profile <span class="bg-black text-white rounded px-2 rounded-circle fw-bold pb-1">></span></button>
+        </div>
+      </div>
+      <div class="cl1 bg-light overflow-hidden rounded-5">
+        <div class="pre-img1"> <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team3.jpg"
+            alt="" class="w-100 object-fit-cover"></div>
+        <div class="ps-3 py-3">
+          <p class="fs-3 text-black">Adam Brown</p>
+          <p class="fs-4 text-secondary">Developer</p>
+          <p class="fs-4 text-black">Lorem ipsum dolor sit amet, consectet adipiscing elit.</p>
+          <button style="background-color:#7cc242;" class="btn  rounded-pill fs-5 border border-3 border-dark">View
+            Profile <span class="bg-black text-white rounded px-2 rounded-circle fw-bold pb-1">></span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+
+  <div style="background-color:#7cc242;" class="container-fluid py-5">
+    <div class="container d-flex flex-wrap justify-content-center align-items-center flex-column">
+      <div class="py-5">
+        <p class="display-3 fw-bold text-white">View in Action</p>
+      </div>
+      <div class="k1 w-75">
+        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpg" alt=""
+          class="k2 rounded-5 w-100">
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+
+  <div class="container-fluid px-4  d-flex flex-wrap justify-content-center align-items-center gap-4 ">
+    <div class="r1  d-flex flex-column flex-md-row justify-content-around justify-content-md-around align-items-center gap-4 ">
+      <div class="col border border-3 rounded-5 py-4">
+        <div class="pic1 w-100">
+         <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/1.png" alt="" class="pic2 object-fit-contain w-100 ">
+        </div>
+        <div class=" w-100 text-center">
+          <p class="fs-2 text-black ">Our partner</p>
+          <p class="fs-4 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla
+            suscipit.</p><br>
+          <button style="background-color:#7cc242;"
+            class="btn rounded-pill text-black border border-black border-3">Learn More</button>
+        </div>
+      </div>
+      <div class="col border border-3 rounded-5 py-4">
+        <div class="pic1  w-100 ">
+          <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/2.png" alt=""
+            class="pic2 object-fit-contain w-100">
+        </div>
+        <div class=" w-100 text-center">
+          <p class="fs-2 text-black">Our partner</p>
+          <p class="fs-4 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla
+            suscipit.</p><br>
+          <button style="background-color:#7cc242;"
+            class="btn rounded-pill text-black border border-black border-3">Learn More</button>
+        </div>
+      </div>
+      <div class="col border border-3 rounded-5 py-4">
+        <div class="pic1 w-100">
+          <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/3.png" alt=""
+            class="pic2 object-fit-contain w-100">
+        </div>
+        <div class=" w-100 text-center py-2">
+          <p class="fs-2 text-black">Our partner</p>
+          <p class="fs-4 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla
+            suscipit.</p><br>
+          <button style="background-color:#7cc242;"
+            class="btn rounded-pill text-black border border-black border-3">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br><br>
+
+  <div class="container-fluid ">
+    <div class="col1 d-flex flex-column flex-md-row justify-content-around justify-content-md-around align-items-center  border border-3 rounded-5 py-4 ps-2">
+      <div class=" w-50 ">
+        <p class="fs-5 text-black ps-5">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu accumsan diam,
+          elementum maximus arcu. Lobortise est ut blandit facilisis, est quam dictum dolor, sed mollis augue. In
+          elementum maximus tempus. Suspendisse augue eget massa vestibulum hendrerit purus."</p>
+        <p class="fs-3 text-black ps-5">Steven Jason</p>
+        <p class="fs-5 text-black ps-5">Client</p>
+        <br>
+        <button style="background-color:#7cc242;" class="btn rounded-pill fs-5 border border-3 border-dark ">Read Full
+          Review <span class="bg-black text-white rounded px-2 rounded-circle fw-bold pb-1">></span></button>
+      </div>
+      <div class="s1 px-3">
+        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team3.jpg" alt=""
+          class="pic3 rounded-5 w-100">
+      </div>
+    </div>
+  </div><br><br><br><br>
+
+  <div class="container">
+    <div class="d-flex flex-column align-items-center">
+      <p style="font-weight: 400;" class="display-2 text-black  text-center">Contacts</p>
+      <p class="text-secondary fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div><br><br>
+  
+  <div class="container4  d-flex flex-column flex-md-row justify-content-center justify-content-md-around gap-5">
+    <div
+      class=" btn4 border border-black w-50 d-flex justify-content-center align-items-center flex-column p-5 bg-body-tertiary rounded-start-5 rounded-bottom-5 rounded-end-5 rounded-top-5 w-100">
+      <i class="bi bi-envelope" style="font-size: 60px;"></i>
+      <h1>Email</h1>
+      <p class="fs-4 text-secondary">We will reply as soon as possible</p>
+      <p class="fs-3 text-black">Send us an email</p>
+    </div>
+
+
+    <div
+      class=" btn4 border border-black w-50 d-flex justify-content-center align-items-center flex-column p-5 bg-body-tertiary rounded-start-5 rounded-bottom-5 rounded-end-5 ro unded-top-5 w-100">
+      <i class="bi bi-phone" style="font-size: 60px;"></i>
+      <h1>Phone</h1>
+      <p class="fs-4 text-secondary">Mon - Fri 09:00 - 18:00</p>
+      <p class="fs-3 text-black">Call (800) 123 45 67</p>
+    </div>
+  </div>
+  </div>
+  <br><br>
+
+ <div class="container py-5">
+  <p class="fs-1 text-black w-100 text-center py-4">Send Message</p>
+  <div style="background-color:#7cc242;" class="row d-flex justify-content-center align-items-center gap-4 rounded-5 py-5">
+  
+    <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label"></label>
+    <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label"></label>
+    <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label"></label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Your Site">
+  </div>
+  <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label"></label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+</div>
+<div class="d-flex align-items-center justify-content-center w-100">
+<button style="background-color:#7cc242; width: 200px;" class="fs-4 border border-3 border-dark rounded-pill " >Send Message</button></div>
+  
+</form>
+    </div>
+</div>
+
+<div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.576871979203!2d-73.9895554!3d40.7493352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259aecf91738f%3A0xb836aeabec21f6c0!2sManhattan%20Mall%2C%20350%205th%20Ave%2C%20New%20York%2C%20NY%2010118%2C%20USA!5e0!3m2!1sen!2sin!4v1766652526029!5m2!1sen!2sin" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+</div>
+
+<div class="bg-dark" style="height: 80px;">
+  <p class="fs-4 text-light text-center w-100 pt-3">© Copyright 2025 Mobirise - All Rights Reserved</p>
+</div>
+
+</body>
+
+</html>
