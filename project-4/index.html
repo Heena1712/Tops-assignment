@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+     <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+      .nav-link{
+        font-size: 20px;
+        color: black;
+      }
+      .foody{
+        width: 100%;
+        padding-top: 20px;
+      }
+      .k1{
+        border-radius: 50%;
+      }
+        input{
+          width: 450px;
+          border-radius: 30px;
+        }
+        .btn{
+          width: 200px;
+          box-shadow:0 8px 16px 0 rgba(124, 86, 86, 0.6);
+          border-radius: 20px;
+          
+        }
+        .btn:hover{
+          box-shadow:0 8px 16px 0 rgba(128, 88, 88, 0.6);
+        }
+       
+      .footer{
+      height: 120px;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      justify-content: space-around;
+    }
+     .child{ 
+      height: 90px;
+      width: 460px;
+      color: white;
+      font-weight: 400;
+     font-size: large; 
+
+    }
+    .child16{
+       height: 90px;
+      width: 600px;
+      color: white;
+      font-weight: 400;
+      font-size: large;
+       display: flex;
+      flex-direction: column; 
+    } 
+
+    /* .container{
+      height: auto;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .row{
+      height: 350px;
+      width: 350px;
+    }
+    .font{
+      font-size: large;
+    } */
+          @media only screen and (max-width: 1200px) {
+            .main{
+           display: grid;
+           grid-template-columns: auto auto auto;
+           
+        } } 
+         @media only screen and (max-width: 768px) {
+            .main{
+           display: grid;
+           grid-template-columns: auto auto;
+           
+        }
+                    }
+         @media only screen and (max-width: 576px) {
+            .main{
+           display: grid;
+           grid-template-columns: auto;
+           
+        }
+          }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <img src="food2-removebg-preview.png" alt="" width="210" height="90"  class="d-inline-block align-text-top">
+    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Recipe</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Popular</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Meat & SeaFood</a>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Healthy & Diet</a>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Cuisine</a>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Seasonal</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+  </li>
+</ul>
+  </div>
+</nav>
+
+<div class="container-fluid ">
+  
+  <source srcset="..." type="image/svg+xml">
+  <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/30/08/1/uaSpHBwtSIuQpcHZKQeu_0S9A0050.jpg" class="img-fluid img-thumbnail" alt="..." height="690px" >
+
+</div>
+<br><br>
+
+<div class="container w-100">
+  <h1>What We're Craving</h1>
+  <div class="row ">
+    <div class="col">
+      <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/75/75/8/NxhOU2TMa2ZhvnHCoobQ_0S9A8180.jpg" alt="" height="350px" width="350px">
+      <h2 class="font">40 Quick & Easy Chicken Dinners</h2>
+    </div>
+    <div class="col">
+      <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/58/49/7/fCDQvyJnT5eisnDqqMif_CCSFT%25207%2520-%2520final_4.jpg" alt=""  height="350px" width="350px">
+      <h2>43 Favourite French Toast Recipes</h2>
+    </div>
+    <div class="col">
+      <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/26/41/85/lRpMpYBUQguVMK9UhzRl_pineapple-chicken-salad-peanut-dressing-asian-7665.jpg" alt="" height="350px" width="350px" >
+      <h2>13 Powerhouse Salad Recipes</h2>
+    </div>
+  </div>
+</div>
+<br><br>
+
+<div class="container d-flex align-content-between justify-content-center flex-column " >
+  <h1 style="margin-right: 650px;">Explore More</h1>
+  <div class="row">
+    <div class="col">
+      <img src="https://imgstore.sndimg.com/f_auto,c_thumb,q_55,w_250,ar_1:1/foodcom/images/be27babc-a2cb-4807-a7cf-f492f190f130.jpg" alt="" height="190px" width="190px" class="k1" >
+      <h4>Comfort food Classic</h4>
+    </div>
+    <div class="col">
+      <img src="https://imgstore.sndimg.com/f_auto,c_thumb,q_55,w_250,ar_1:1/foodcom/images/0ba5e633-8a82-4412-9912-3e4b021d3f36.jpg" alt=""  height="190px" width="190px" class="k1">
+      <h4>International Eat</h4>
+    </div>
+    <div class="col">
+      <img src="https://imgstore.sndimg.com/f_auto,c_thumb,q_55,w_250,ar_1:1/foodcom/images/9985d8e3-87d3-4cfc-b312-b355a6630e76.jpg" alt="" height="190px" width="190px" class="k1" >
+      <h4>BreackFast & Brunch</h4>
+    </div>
+    <div class="col">
+      <img src="https://imgstore.sndimg.com/f_auto,c_thumb,q_55,w_250,ar_1:1/foodcom/images/b968c752-8018-429d-aa68-b0baf71a9129.jpg" alt="" height="190px" width="190px" class="k1" >
+      <h4>Community Picks</h4>
+    </div>
+  </div>
+</div>
+<br><br>
+
+<div class="d-flex justify-content-center align-items-center flex-column gap-3 bg-light">
+<h1>Find More Recipes</h1>
+<input type="text" placeholder="I'm craving....">
+<button type="button" class="btn btn-warning">Search</button>
+</div>
+ <br>
+ 
+
+    <div class="footer">
+  <div class="child"><p>Copyright © 2025 Food.com <br>
+    Don’t miss out on the latest Recipes. <br>
+ Follow us instagram @myFood, instagram @MYFOOD</p></div>
+
+ <div class="child16">
+  <a href="cookie policy" style="color: white; text-decoration: none;">Cookie Policy</a>
+  <a href="cookie policy" style="color: white; text-decoration: none;">Contact us-Food.com</a>
+  <a href="cookie policy" style="color: white; text-decoration: none;"> Warner Bros. Discovery, Inc. or its subsidiaries and affiliates. All rights reserved-Food.com</a>
+ </div>
+
+</div>
+
+</body>
+</html>
